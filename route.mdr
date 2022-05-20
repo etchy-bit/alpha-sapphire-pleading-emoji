@@ -1591,7 +1591,7 @@ Heal if below 75%.
     - Surf
   :::::
   :::::pokemon[Armaldo]
-    - (Heal if in Bullet Punch range)
+    - **(Heal if under 40 HP)**
     - Surf
   :::::
   :::::pokemon[Mega Metagross]
