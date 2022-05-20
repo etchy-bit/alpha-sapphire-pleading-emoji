@@ -1094,13 +1094,9 @@ Bike to the Harbor.
     ::damage[+1 Surf vs Swellow at Lv. 34]{source="Latias" special=true movePower=90 level=34 evs=1 opponentStat=37 healthThreshold=91 combatStages=1 otherPowerModifier=1.2 theme=error}
   :::::
   :::::pokemon[Sceptile]
-    - Fly
-    - Mist Ball
-    - Surf :info[Fly does ~50% damage if you're out of Mist Ball PP]{color=gray}
+    - Spam Mist Ball
 
-    _If Brendan uses Detect on Fly, use Mist Ball then Fly and pray._
-
-    :info[If you die here, Revive on Castform, heal to full, and spam Fly.]{color=red}
+    :info[If you die here, Revive on Castform, heal to full, and spam Mist Ball.]{color=red}
   :::::
   :::::pokemon[Magcargo]
     - Surf
@@ -1110,7 +1106,8 @@ Bike to the Harbor.
   :::::
 :::::::
 
-If you have no Mist Ball PP left, heal to full and use the Elixir.
+- Heal to full.
+- Use the Elixir.
 
 :::::trainer[Team Aqua Grunt]
   :::pokemon[Golbat]
@@ -1118,8 +1115,6 @@ If you have no Mist Ball PP left, heal to full and use the Elixir.
     - Surf
   :::
 :::::
-
-Heal to full and use the Elixir if took damage from Golbat or you did not do so before.
 
 Go down to the puzzle:
   - Left
