@@ -1435,6 +1435,9 @@ Deposit Marshtomp and PC heal Kyogre.
     - Surf
     - X Speed
     - Ice Beam
+
+    picture for reference, feel free to ignore:
+    ![sidney guide](https://raw.githubusercontent.com/etchy-bit/alpha-sapphire-pleading-emoji/main/assets/sidney.png)
   :::::
   :::::pokemon[Mightyena]
    :::if{source=Kyogre condition="spatk=(x / 20+ / 0+) && speed=(x / 28+ / 9+)"}
