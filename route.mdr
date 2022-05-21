@@ -536,7 +536,7 @@ Head through the cave. After exiting, grab the Persim Berries from the middle bu
 :::card{theme=success}
   ## E4R2 ROUTE CHANGE DON'T FORGET DON'T FORGET
   - Pick up the Nugget from the crater right next to the house.
-  - Bike right to the mart and buy a Quick Ball.
+  - Bike right to the mart and buy a Quick Ball from the top trainer.
 :::
 :::::trainer[Poké Maniac Steve]
   :::pokemon[Aron]
@@ -1126,7 +1126,6 @@ Bike to the Harbor.
 - Room 2: Run straight forward down the middle, watch out for spinner.
 - Room 3: Hug the little barrier thing then head up.
 
-
 :::::trainer[Team Aqua Grunt]
   :::pokemon[Golbat]
     - Mist Ball :info[Can use Surf x2 - 95.3% at 99+ Sp. Atk (x / x / 23-28)]{color=gray}
@@ -1237,7 +1236,9 @@ Revive Latias if fainted. Heal to full and head to the Mossdeep City gym.
   :::
 :::::
 
-Catch Kyogre with the Master Ball.
+## :info[DON'T USE THE QUICK BALL ON KYOGRE.]{color=red}
+
+Catch Kyogre with the Master Ball (SLOT 2 OF THE BAG SLOT 2 SLOT 2 SLOT 2).
 
 ## :info[LETS GOOOOOO NO JOLLY PLS 🙏🙏🙏🙏🙏]{color=pink}
 
@@ -1833,11 +1834,11 @@ Leave the Space Center and fly to Sootopolis. Get the Brick Break TM.
 
 ![brick break tm location](https://raw.githubusercontent.com/etchy-bit/alpha-sapphire-pleading-emoji/main/assets/brick-break.png)
 
-Head to the Cave of Origin.
+Head to Wallace, who is by the Cave of Origin.
 
-After the cutscene, fly to Route 128.
+After the cutscene, fly to Route 128 (small sliver of ocean to the bottom-right).
 
-- Heal to full.
+- Heal Kyogre to full.
 - Revive Latias.
 - **Equip the Blue Orb on Kyogre.**
 - Use a Leppa Berry on Kyogre's Surf.
@@ -1846,7 +1847,7 @@ Surf down and to the left, then pretty far left until you see the little opening
 
 ## :info[SAVE THE GAME BEFORE DISMOUNTING SURF]{color=red}
 
-:::::::trainer[Leader Wallace]
+:::::::trainer[Sootopolin Wallace]
   :::::pokemon[Wailord]
     - Calm Mind
     - Surf
