@@ -2082,8 +2082,8 @@ Heal both Pokémon to full if Rayquaza took damage.
   :::::pokemon[Aggron]
     - Ice Beam
     - _If you died to Stone Edge:_
-      - Switch to Rayquaza and revive Kyogre.
-      - Heal if Aggron misses Rayquaza.
+      - Switch to Rayquaza and revive Kyogre. (KYOGRE IS IN SLOT 2 NOW)
+      - Heal if Aggron misses Rayquaza or Rayquaza doesn't die.
       - Switch back to Kyogre once Rayquaza dies.
     - Surf
   :::::
