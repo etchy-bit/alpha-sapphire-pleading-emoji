@@ -50,12 +50,7 @@
   54 ->  15,    29,   9,    7,   12,   11 # Claydol (2 Sp. Def), Armaldo (2 Sp. Def)
 :::
 
-:::tracker{species="Rayquaza" generation=6 baseStats="[[105, 150, 90, 150, 90, 95]]"}
-:::
-
-# Alpha Sapphire E4R2 - Cool 1st Place Gamers Edition
-
-**IN THE EVENT THAT I FUCKED UP AND SOMETHING SEEMS LIKE IT'S HORRIBLY NOT WORKING, THE ORIGINAL NOTES ARE [HERE](https://docs.google.com/document/d/1YeDQ2aDdD8-dGbKUjqYi4LOMEJYsi_V6H6fqGQ9Zoi8/edit#)**
+# Alpha Sapphire Any% - Cool 1st Place Gamers Edition
 
 **Set your console date and time so it's the morning of 15th February 2001.**
 
@@ -413,7 +408,7 @@ After beating Isabel:
 
 Optional: Get the hidden Revive before the next spinner.
 
-Get Leppa Berries from **two** bushes before entering Mauville. Drop Repel and get the Mach Bike.
+Get Leppa Berries from one bush before entering Mauville. Drop Repel and get the Mach Bike.
 
 ### Mauville Shopping
 > #### Buy (Top):
@@ -533,11 +528,6 @@ Head through the cave. After exiting, grab the Persim Berries from the middle bu
   :::
 :::::
 
-:::card{theme=success}
-  ## E4R2 ROUTE CHANGE DON'T FORGET DON'T FORGET
-  - Pick up the Nugget from the crater right next to the house.
-  - Bike right to the mart and buy a Quick Ball.
-:::
 :::::trainer[Poké Maniac Steve]
   :::pokemon[Aron]
     Rock Smash x2
@@ -620,7 +610,6 @@ Enter the cable car building (watch out for the spinner in front!) and talk to t
     - X Speed x2
     :::
     - (X Attack if you have not been Swagger'd)
-    - **(Full Heal if confused)**
     - Bulldoze x2 (+ Rock Smash)
   :::::
   :::::pokemon[Sharpedo]
@@ -1052,10 +1041,9 @@ If in yellow health:
 
 ### Slateport Shopping.
 > #### Buy (Top):
-> - 15 X Speed
-> - 1 X Defense (vv)
-> - 1 Guard Spec (v)
-> - 7 X Sp. Attack (vvv)
+> - 7 X Speed
+> - 7 X Sp. Attack (>^)
+> - 1 Guard Spec (^^^)
 > #### Buy (Botom):
 > - 14 Max Repel (^^)
 > - 2 Revive (<^^^)
@@ -1233,10 +1221,9 @@ Revive Latias if fainted. Heal to full and head to the Mossdeep City gym.
 
 Catch Kyogre with the Master Ball.
 
-## :info[LETS GOOOOOO NO JOLLY PLS 🙏🙏🙏🙏🙏]{color=pink}
+## :info[AAAAAAAAA ALMOST DONE!!!! YOU'RE GONNA WIN!!!!!]{color=pink}
 
 - Teach Surf over Body Slam (slot 1).
-  - **Make sure to check Sp. Attack and Speed!!!**
 - Teach Calm Mind over Aqua Ring (slot 2).
 :::if{source="Kyogre" condition="spatk=~(x / x / 7+)"}
 - Move the Mystic Water from Latias to Kyogre.
@@ -1387,17 +1374,7 @@ At the Pokémon Center, deposit Castform and Latias. PC heal Kyogre, but keep Ma
   :::
 :::::
 
-Deposit Marshtomp and PC heal Kyogre.
-
-:::card{theme=success}
-  ## E4R2 ROUTE CHANGE DON'T FORGET DON'T FORGET
-  
-  ### Elite Four Shopping
-  - 11 Full Restores (>)
-  - 2 Revives (v)
-  - 2 Escape Ropes (>)
-  - 14 Max Repels (>^)
-:::
+Deposit Marshtomp and PC heal Kyogre. If you're low on Full Restores, consider buying a few.
 
 ## :info[SAVE THE GAME]{color=red}
 
@@ -1514,7 +1491,7 @@ Heal to full.
 :::::::
 
 - Heal to full.
-- **Equip the Blue Orb.**
+- Equip the Blue Orb.
 
 ## :info[Consider saving.]{color=red}
 
@@ -1545,7 +1522,7 @@ Heal to full.
 
 - Heal to full.
 - Leppa Berry Surf if you didn't in the previous fight.
-- **Remove Blue Orb and re-equip Mystic Water.**
+- Remove Blue Orb and re-equip Mystic Water.
 
 don't need to save this one drake sucks lmfaoooo get kyogre'd on
 
@@ -1633,427 +1610,11 @@ Heal if below 75%.
   :::::
 :::::::
 
-## WAIT FOR THE CREDITS GET UP AND STRETCH IT'S LIKE 10 MINUTES UGH
-
-:::::trainer[Pokémon Trainer Brendan]
-  - Spam Calm Mind until you die.
-:::::
-
-After the **POST-BRENDAN** save screen, soft reset.
-
-Mash through the cutscenes, then head to Brendan's house.
-
-- Use a Max Repel.
-- Use the Eon Flute and fly to Petalburg (north-east)
-- Enter the center and retrieve Latias into the slot 1, and put Kyogre into slot 2.
-- Go to the house directly left of Norman's gym.
-
-:::::::trainer[Aqua Admin Matt]
-  :::::pokemon[Sharpedo]{info="You outspeed at (x / x / 14+)" infoColor=blue}
-    - Mist Ball until dead.
-    - Switch to Kyogre.
-    :::if{source=Kyogre condition="spatk=(x / 1+ / 0+)"}
-    - Surf (x2)
-    :::
-    :::if{source=Kyogre condition="spatk=~(x / 1+ / 0+)"}
-    - Origin Pulse
-    :::
-  :::::
-:::::::
-
-Fly to Rustboro City and go to the Devon Corp. 
-
-Exit, then fly to Granite Cave. Bike down to the Steven Room.
-
-:::::::trainer[Lorekeeper Zinnia]
-  :::::pokemon[Tyrantrum]
-    :::if{source=Kyogre condition="speed=(31- / 13- / x)"}
-    - X Speed
-    :::
-    - Surf
-  :::::
-  :::::pokemon[Salamence]
-    - Ice Beam
-  :::::
-  :::::pokemon[Altaria]
-    - Ice Beam
-  :::::
-:::::::
-
-Use an Escape Rope.
-
-Fly to Mossdeep and bike to the Space Center (it's to the right). Go up the stairs.
-
-After leaving, fly to Meteor Falls (top-left of the map).
-
-After entering Meteor Falls, go left and down one flight of stairs. Surf to the waterfall and head up the left side of it.
-
-Head straight up to the next room. Go down the ladder to the right (don't cross the trainer).
-
-Bike to the left, **avoiding the roamer**, then fight the dragon tamer.
-
-:::::trainer[Dragon Tamer Dray]
-  :::pokemon[Altaria]
-    - Ice Beam
-  :::
-:::::
-
-Head up the ladder and up the staircase. After the cutscene, heal to full and use an Escape Rope.
-
-Fly to Rustboro and head to Devon Corp.
-
-:::::trainer[Team Aqua Grunt]
-  :::pokemon[Mightyena]{info="Has Sucker Punch" infoColor=blue}
-    - Surf
-  :::
-  :::pokemon[Golbat]
-    - Surf
-  :::
-:::::
-
-:::::::trainer[Team Aqua Grunt]
-  :::::pokemon[Muk]
-    :::if{source=Kyogre condition="spatk=(x / 7+ / 0+)"}
-    - Surf (x2)
-    :::
-    :::if{source=Kyogre condition="spatk=~(x / 7+ / 0+)"}
-    - Origin Pulse
-    :::
-  :::::
-:::::::
-
-:::::trainer[Team Aqua Grunt]
-  :::pokemon[Golbat]
-    - Surf :info[Can Ice Beam to conserve PP]{color=gray}
-  :::
-  :::pokemon[Sharpedo]{info="You're faster unless your Sp. Attack is truly horrendous (8- negative)" infoColor=blue}
-    - Surf
-  :::
-:::::
-
-Fly to Mossdeep and head to the Space Center (right).
-
-:::::trainer[Team Aqua Horde Battle]
-  - Surf
-:::::
-
-Head upstairs.
-
-- Heal to full.
-- **Move Kyogre to slot 1.**
-
-## :info[SAVE THE GAME]{color=red}
-
-:::::trainer[Team Aqua Double]
-  - Surf
-  - Origin Pulse
-:::::
-
-Fly to Lilycove City and head to the Aqua Hideout. Do the movement from before, and head to the Master Ball room.
-
-:::::trainer[Team Aqua Grunt]
-  :::pokemon[Golbat]
-    - Surf
-  :::
-:::::
-
-Master Ball room puzzle:
-  - Left
-  - Middle
-  - Left
-  - Far Left
-
-Exiting the puzzle:
-  - Middle
-  - Right
-  - Top
-
-Leave the Aqua Hideout by heading to the room where you fought Matt and taking the warp pad 
-in the top-left of the room (same as before). All those trainers are gone now wooo.
-
-Fly to Mossdeep and head to the upper floor of the Space Center.
-
-Leave the Space Center and fly to Sootopolis. Get the Brick Break TM.
-
-![brick break tm location](https://raw.githubusercontent.com/etchy-bit/alpha-sapphire-pleading-emoji/main/assets/brick-break.png)
-
-Head to the Cave of Origin.
-
-After the cutscene, fly to Route 128.
-
-- Heal to full.
-- Revive Latias.
-- **Equip the Blue Orb on Kyogre.**
-- Use a Leppa Berry on Kyogre's Surf.
-
-Surf down and to the left, then pretty far left until you see the little opening that leads to Sky Pillar.
-
-## :info[SAVE THE GAME BEFORE DISMOUNTING SURF]{color=red}
-
-:::::::trainer[Leader Wallace]
-  :::::pokemon[Wailord]
-    - Calm Mind
-    - Surf
-  :::::
-  :::::pokemon[Ludicolo]
-    - X Speed
-    - Calm Mind x2
-    - Ice Beam
-  :::::
-  :::::pokemon[Whiscash]
-    - Surf
-  :::::
-  :::::pokemon[Gyarados]
-    - Ice Beam
-  :::::
-  :::::pokemon[Tentacruel]
-    :::if{source=Kyogre condition="spatk=(x / 17+ / 0+)"}
-    - Surf
-    :::
-    :::if{source=Kyogre condition="spatk=~(x / 17+ / 0+)"}
-    - Origin Pulse
-    :::
-  :::::
-  :::::pokemon[Milotic]
-    :::if{source=Kyogre condition="spatk=~(x / 20+ / 0+)"}
-    - Ice Beam
-    - Surf
-    :::
-    :::if{source=Kyogre condition="spatk=(x / 20+ / 0+)"}
-    - Origin Pulse
-    :::
-  :::::
-:::::::
-
-Go up Sky Pillar.
-
-Before Rayquaza, move Latias to slot 1 and...
-
-## :info[SAVE THE GAME OH GOD IT'S LIKE THE MOST IMPORTANT SAVE]{color=red}
-
-Catch Rayquaza in the Quick Ball (40% chance). If you fail to catch, soft reset and try again until it happens.
-
-:::::trainer[Lorekeeper Zinnia]
-  :::pokemon[Goodra]
-    - Dragon Ascent
-  :::
-  :::pokemon[Tyrantrum]
-    - Dragon Pulse
-  :::
-  :::pokemon[Altaria]
-    - Dragon Dance
-    - Dragon Pulse
-  :::
-  :::pokemon[Noivern]
-    - Dragon Pulse
-  :::
-  :::pokemon[Salamence]
-    - Dragon Pulse
-  :::
-:::::
-
-:::trainer[Deoxys]
-  - Dragon Ascent
-:::
-
-At Birch, pick your fav :)
-
-- Turn on the Experience Share.
-- Teach Brick Break over Extreme Speed. **MAKE NOTE IF YOU HAVE EITHER/BOTH OF 226+ ATTACK AND 142+ NEUTRAL SPEED**
-- Fly to the Pokémon League.
-- Deposit Latias and Cyndaquil.
-
-## :info[SAVE THE GAME]{color=red}
-
-:::::::trainer[Elite Four Sidney]
-  :::::pokemon[Scrafty]
-    - [Mega Evolve] Dragon Dance x2.
-    - _If you had less than 226 Attack when you checked:_
-      - Dragon Dance
-    - Brick Break
-  :::::
-  :::::pokemon[Mandibuzz]
-    - Dragon Ascent
-  :::::
-  :::::pokemon[Shiftry]
-    - (Heal if under 40 HP)
-    - Brick Break
-  :::::
-  :::::pokemon[Sharpedo]
-    - Dragon Pulse
-  :::::
-  :::::pokemon[Sus Absol]
-    - Brick Break
-  :::::
-  :::::pokemon[Real Absol]
-    - Brick Break
-  :::::
-:::::::
-
-**Move Kyogre to slot 1.**
-
-## :info[SAVE THE GAME]{color=red}
-
-:::::::trainer[Elite Four Phoebe]{info="PRIMAL KYOGRE FIGHT"}
-  :::::pokemon[Banette]
-    - Calm Mind x2
-    - X Speed
-    - _If hit by Toxic:_
-      - Full Restore
-    - _If Banette used Grudge:_
-      - Origin Pulse :info[If you forget and accidentally Surf, use a Leepa on Mismagius I guess?]{infoColor=gray}
-    - _Otherwise:_
-      - Surf
-    -
-  :::::
-  :::::pokemon[Mandibuzz]
-    - Surf
-  :::::
-  :::::pokemon[Shiftry]
-    - Surf
-  :::::
-  :::::pokemon[Sharpedo]
-    - Surf
-  :::::
-  :::::pokemon[Sus Absol]
-    - Surf
-  :::::
-  :::::pokemon[Real Absol]
-    - Surf
-  :::::
-:::::::
-
-- Heal Kyogre to full.
-- Heal Rayquaza to full.
-- **Move Rayquaza to slot 1.**
-
-## :info[SAVE THE GAME SAVE THE GAME SAVE THE GAME SAVE THE GAME]{color=red}
-
-:::::::trainer[Elite Four Glacia]
-  :::::pokemon[Abomasnow]
-    - Dragon Ascent
-  :::::
-  :::::pokemon[Froslass]
-    - Switch to Kyogre
-    - Calm Mind x2
-    :::if{source=Kyogre condition="speed=(31- / 24- / 5-)"}
-    - X Speed
-    :::
-    Surf
-  :::::
-  :::::pokemon[Walrein]
-    - Surf x2 :info[good luck don't get sheer colded :<]{color=gray}
-  :::::
-  :::::pokemon[Beartic]
-    - Surf
-  :::::
-  :::::pokemon[Vanilluxe]
-    - Surf
-  :::::
-  :::::pokemon[Glalie]
-    - Surf
-    - _If Protect and you're below 33% and you didn't X Speed:_
-      - Full Restore
-    - Surf
-  :::::
-:::::::
-
-Heal both Pokémon to full if Rayquaza took damage.
-
-:::::::trainer[Elite Four Drake]
-  :::::pokemon[Altaria]
-    :::if{source=Rayquaza condition="speed=(31- / 5- / x)"}
-      - [Mega Evolve] Dragon Dance
-      - Dragon Pulse
-    :::
-    :::if{source=Rayquaza condition="speed=~(31- / 5- / x)"}
-      - [Mega Evolve] Dragon Pulse
-    :::
-  :::::
-  :::::pokemon[Kingdra]
-    - Dragon Pulse
-  :::::
-  :::::pokemon[Dragalge]
-    - Dragon Pulse
-  :::::
-  :::::pokemon[Flygon]
-    - Dragon Pulse
-  :::::
-  :::::pokemon[Haxorus]
-    - Dragon Pulse
-  :::::
-  :::::pokemon[Salamence]
-    - Dragon Pulse
-  :::::
-:::::::
-
-- Move Kyogre to slot 1. 
-- Heal Kyogre to full.
-
-## :info[SAVE THE GAMEEEEEEE]{color=red}
-
-:::::::trainer[Champion Steven]
-  :::::pokemon[Skarmory]{info="HEAL AS NEEDED." infoColor=blue}
-    - X Defense
-    :::if{source=Kyogre condition="speed=(x / x / 25+)"}
-      - Ice Beam
-      - X Speed
-    :::
-    :::if{source=Kyogre condition="speed=(x / 12+ / 0+)"}
-      - Ice Beam
-      - X Speed x2
-    :::
-    :::if{source=Kyogre condition="speed=(7+ / 11- / x)"}
-      - X Speed x2
-    :::
-    :::if{source=Kyogre condition="speed=(6- / x / x)"}
-      - X Speed x3
-      - Ice Beam
-    :::
-    - Calm Mind x2
-    :::if{source=Kyogre condition="spatk=(31- / 16- / x)"}
-    - Calm Mind again
-    :::
-    - Heal to full.
-    - Surf
-  :::::
-  :::::pokemon[Aerodactyl]
-    - Surf
-  :::::
-  :::::pokemon[Aggron]
-    - Ice Beam
-    - _If you died to Stone Edge:_
-      - Switch to Rayquaza and revive Kyogre.
-      - Heal if Aggron misses Rayquaza.
-      - Switch back to Kyogre once Rayquaza dies.
-    - Surf
-  :::::
-  :::::pokemon[Carbink]
-    - _If you died on Aggron:_
-      - Calm Mind the same number of times you did originally.
-      - Every turn that you get a Sp. Attack drop, add an additional Calm Mind.
-      - X Speed
-    - _If below 33% HP_
-      - Heal to full.
-      - Use Calm Mind until you don't get a Sp. Attack drop.
-    - Surf
-  :::::
-  :::::pokemon[Claydol]
-    - Surf
-  :::::
-  :::::pokemon[Metagross]
-    - Surf
-  :::::
-:::::::
-
-
 :::card{theme=success}
-# WOOOOOOOOOOOOOOOOOOO
-![aipom](https://raw.githubusercontent.com/etchy-bit/alpha-sapphire-pleading-emoji/main/assets/aipom.png)
-![aipom](https://raw.githubusercontent.com/etchy-bit/alpha-sapphire-pleading-emoji/main/assets/aipom.png)
-![aipom](https://raw.githubusercontent.com/etchy-bit/alpha-sapphire-pleading-emoji/main/assets/aipom.png)
-![aipom](https://raw.githubusercontent.com/etchy-bit/alpha-sapphire-pleading-emoji/main/assets/aipom.png)
-![aipom](https://raw.githubusercontent.com/etchy-bit/alpha-sapphire-pleading-emoji/main/assets/aipom.png)
+# LETS FUCKIN GOOOOOOOOOOOOOOOO
+![spoink](https://raw.githubusercontent.com/etchy-bit/alpha-sapphire-pleading-emoji/main/assets/spoink.png)
+![spoink](https://raw.githubusercontent.com/etchy-bit/alpha-sapphire-pleading-emoji/main/assets/spoink.png)
+![spoink](https://raw.githubusercontent.com/etchy-bit/alpha-sapphire-pleading-emoji/main/assets/spoink.png)
+![spoink](https://raw.githubusercontent.com/etchy-bit/alpha-sapphire-pleading-emoji/main/assets/spoink.png)
+![spoink](https://raw.githubusercontent.com/etchy-bit/alpha-sapphire-pleading-emoji/main/assets/spoink.png)
 :::
-
-
