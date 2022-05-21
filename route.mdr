@@ -2090,11 +2090,11 @@ Heal both Pokémon to full if Rayquaza took damage.
   :::::pokemon[Carbink]
     - _If you died on Aggron:_
       - Calm Mind the same number of times you did originally.
-      - Every turn that you get a Sp. Attack drop, add an additional Calm Mind.
+      - Every turn that you get a Sp. Attack drop, add an additional Calm Mind. **Heal as needed.**
       - X Speed
     - _If below 33% HP_
       - Heal to full.
-      - Use Calm Mind until you don't get a Sp. Attack drop.
+      - (If you got a Sp. Attack drop while healing, use Calm Mind until you don't get a Sp. Attack drop).
     - Surf
   :::::
   :::::pokemon[Claydol]
