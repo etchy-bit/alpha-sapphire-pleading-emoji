@@ -1247,6 +1247,31 @@ Catch Kyogre with the Master Ball.
 :info[If you're afraid of missing the range, equip the Msyic Water instead]{color=gray}
 :::
 
+:::::card
+## Kyogre Stats
+
+**SP. ATTACK**: 149+ -> Strong :info[Guaranteed range at 153+]{color=gray}
+
+**SPEED**: 99+ -> Fast
+
+(If you see more than one line below here in the card, you need to input your stats :>)
+
+  :::if{source=Kyogre condition="spatk=(x / 20+ / 0+) && speed=(x / 28+ / 9+)"}
+    ### YOUR KYOGRE IS STRONG AND FAST LETS GOOOOOO
+  :::
+  :::if{source=Kyogre condition="spatk=(x / 20+ / 0+) && speed=~(x / 28+ / 9+)"}
+    ### YOUR KYOGRE IS STRONG BUT SLOW, STILL GOOD WOOOO
+  :::
+  :::if{source=Kyogre condition="spatk=~(x / 20+ / 0+) && speed=(x / 28+ / 9+)"}
+    ### YOUR KYOGRE IS WEAK BUT FAST, WE TAKE THOSE
+  :::
+  :::if{source=Kyogre condition="spatk=~(x / 20+ / 0+) && speed=~(x / 28+ / 9+)"}
+    ### Your Kyogre is weak and slow :< 
+
+    (it's fine just means the slightly scarier sidney fight)
+  :::
+:::::
+
 ## :info[SAVE BEFORE DOING THE ICE PUZZLE PROBABLY]{color=red}
 
 ![Ice puzzle momement pt. 1](https://raw.githubusercontent.com/etchy-bit/alpha-sapphire-pleading-emoji/main/assets/ice-puzzle-1.png)
@@ -1403,35 +1428,50 @@ Deposit Marshtomp and PC heal Kyogre.
 
 :::::::trainer[Elite Four Sidney]
   :::::card
-    ### Do this for Mightyena and Shiftry it'll be easier
+    hi i made this fight actually dynamic
 
-    this is what i do in my notes cuz i hate thinking
+    put in your stats. if you forgot, just do this for the first two trainers:
 
-    no thoughts head empty brain scrampled egg
-
-    ![sidney guide](https://raw.githubusercontent.com/etchy-bit/alpha-sapphire-pleading-emoji/main/assets/sidney.png)
+    - Surf
+    - X Speed
+    - Ice Beam
   :::::
   :::::pokemon[Mightyena]
-    :::if{source="Kyogre" condition="speed=(31- / 27- / 8-)"}
-      - X Speed :info[Can delay to Shiftry if you have good Sp. Attack]{color=gray}
-      - _If Mightyena used Swagger_:
-        - X Sp. Attack
-        - Full Restore
+   :::if{source=Kyogre condition="spatk=(x / 20+ / 0+) && speed=(x / 28+ / 9+)"}
       - Surf
     :::
-    :::if{source="Kyogre" condition="speed=~(31- / 27- / 8-)"}
+    :::if{source=Kyogre condition="spatk=(x / 20+ / 0+) && speed=~(x / 28+ / 9+)"}
+      - Surf
+    :::
+    :::if{source=Kyogre condition="spatk=~(x / 20+ / 0+) && speed=(x / 28+ / 9+)"}
+      - Surf
+    :::
+    :::if{source=Kyogre condition="spatk=~(x / 20+ / 0+) && speed=~(x / 28+ / 9+)"}
       - Calm Mind
-      - _If Mightyena used Swagger_:
-        - Full Heal
+      - X Speed
+      - Full Restore
       - Surf
     :::
   :::::
   :::::pokemon[Shiftry]
-    - _If you didn't use Calm Mind or an X Sp. Attack on Mightyena_:
-      - X Sp. Attack :info[Shiftry will usually use Fake Out if you are at full HP.]{color=gray}
-    - Ice Beam
-
-    ::damage[+0 Ice Beam vs Shiftry]{source="Kyogre" special=true movePower=90 level=48 evs=4 opponentStat=69 healthThreshold=154 effectiveness=2 theme=error}
+    :::if{source=Kyogre condition="spatk=(0 / 20-28 / 0+) && speed=(x / 28+ / 9+)"}
+      - X Sp. Attack
+      - Ice Beam
+    :::
+    :::if{source=Kyogre condition="spatk=(0 / 29+ / 0+) && speed=(x / 28+ / 9+)"}
+      - Ice Beam (x2 if Fake Out)
+    :::
+    :::if{source=Kyogre condition="spatk=(0 / 20+ / 0+) && speed=~(x / 28+ / 9+)"}
+      - X Speed
+      - Ice Beam
+    :::
+    :::if{source=Kyogre condition="spatk=~(0 / 20+ / 0+) && speed=(x / 28+ / 9+)"}
+      - X Sp. Attack
+      - Ice Beam
+    :::
+    :::if{source=Kyogre condition="spatk=~(0 / 20+ / 0+) && speed=~(x / 28+ / 9+)"}
+      - Ice Beam
+    :::
   :::::
   :::::pokemon[Cacturne]
     - Ice Beam
