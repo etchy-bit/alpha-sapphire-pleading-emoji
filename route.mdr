@@ -1959,24 +1959,24 @@ At Birch, pick your fav :)
     - _If hit by Toxic:_
       - Full Restore
     - _If Banette used Grudge:_
-      - Origin Pulse :info[If you forget and accidentally Surf, use a Leepa on Mismagius I guess?]{infoColor=gray}
+      - Origin Pulse :info[If you forget and accidentally Surf, use a Leppa on Mismagius I guess?]{color=gray}
     - _Otherwise:_
       - Surf
     -
   :::::
-  :::::pokemon[Mandibuzz]
+  :::::pokemon[Mismagius]
     - Surf
   :::::
-  :::::pokemon[Shiftry]
+  :::::pokemon[Chandelure]
     - Surf
   :::::
-  :::::pokemon[Sharpedo]
+  :::::pokemon[Dusknoir]
     - Surf
   :::::
-  :::::pokemon[Sus Absol]
+  :::::pokemon[Drifblim]
     - Surf
   :::::
-  :::::pokemon[Real Absol]
+  :::::pokemon[Sableye]
     - Surf
   :::::
 :::::::
@@ -2050,7 +2050,7 @@ Heal both Pokémon to full if Rayquaza took damage.
 
 ## :info[SAVE THE GAMEEEEEEE]{color=red}
 
-:::::::trainer[Champion Steven]
+:::::::trainer[Champion Steven]{info="PRIMAL KYOGRE FIGHT"}
   :::::pokemon[Skarmory]{info="HEAL AS NEEDED." infoColor=blue}
     - X Defense
     :::if{source=Kyogre condition="speed=(x / x / 25+)"}
